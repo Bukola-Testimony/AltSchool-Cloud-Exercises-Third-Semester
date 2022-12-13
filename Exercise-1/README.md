@@ -26,7 +26,7 @@ This is actually about the third week in third semester with AltSchool.There has
 
 - Enable static website hosting, and bucket must be private
 
--The tutor must be able to access your URL.
+- The tutor must be able to access your URL.
 
 - Explore Cloudfront, to privately expose your index.html file in your S3 bucket.
 
@@ -41,7 +41,7 @@ This is actually about the third week in third semester with AltSchool.There has
 
 Navigate to the S3 dashboard, and click on the Create bucket button. It will launch a new wizard
 
-![s1](/third_semester/Exercise-1/images/s1.png)
+![s1](/Exercise-1/images/s1.png)
 
 We create a bucket first, and later we upload files and folders to it.
 
