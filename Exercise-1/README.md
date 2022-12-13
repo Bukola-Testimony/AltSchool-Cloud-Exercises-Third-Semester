@@ -52,13 +52,19 @@ This is actually about the third week in third semester with AltSchool.There has
 
 - Navigate to the Cloudfront service in your AWS account and click on the "Create Distribution" button.
 
-- Select the "Web" delivery method and click on the "Get started" button.
-
 - In the Origin settings, select the S3 bucket you created in the previous steps as the origin domain name.
 
-- In the Default Cache Behavior settings, select the "Redirect HTTP to HTTPS" option.
+- In the "Origin access" settings, select "Legacy access identities" (This will Use a CloudFront origin access identity (OAI) to access the S3 bucket)
 
-- In the Distribution settings, enter a unique Cloudfront URL for your website and click on the "Create Distribution" button.
+- From the dropdown, under "Origin access identity" settings, click on "Create new OAI" Here, your s3 bucket name is automatically generated in the box. Click on "create"
+
+-  Next, under bucket policy, select "Yes, update the bucket policy"
+
+- In the Default Cache Behavior settings under "Viewer settings, select the "Redirect HTTP to HTTPS" option.
+
+- Scroll down to "Settings" and  under the "Default root object" type in the root document for web in s3 bucket e.g index.html
+
+- Scroll to the end and click on the "Create Distribution" button.
 
 - Wait for the Cloudfront distribution to be created and enabled.
 
@@ -184,7 +190,7 @@ Now to check whether things are working properly let's test our CloudFront Distr
 
 Our CloudFront Distribution is working perfectly fine. We have successfully learned that how to use CloudFront with S3.
 
-![s1](/Exercise-1/images/c7.png)
+![s1](/Exercise-1/images/rendered-page.png)
 
 
 <br>
