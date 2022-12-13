@@ -1,5 +1,5 @@
 # AltSchool-Cloud-Exercises-Third-Semester
-> ![AltSchool Cloud Exercices](cloud3.JPG)
+> ![AltSchool Cloud Exercices](/cloud3.JPG)
 
 
 - [Back to first page](../README.md)
