@@ -12,69 +12,50 @@
 <br>
 
 ## Overview
-LEARNING CLOUD ENGINEERING WITH ALTSCHOOL.
-<p>
-This is actually about the third week in third semester with AltSchool.There has been so much new concepts to learn. Introduction to Cloud providers starting with AWS and its services was an incredibly enriching experience. With the guidance of instructors both physical and on LMS, I was able to dive deep into the world of AWS and gain a comprehensive understanding of its different services. Through hands-on labs, tutorials, and interactive quizzes, I was able to learn best practices for architecting and managing applications on AWS as well as effective methods for managing costs and and the various ways of deploying applications on the cloud. This week the focus is on s3 bucket
-</p>
+> LEARNING CLOUD ENGINEERING WITH ALTSCHOOL.
+#### This is actually about the third week in third semester with AltSchool.There has been so much new concepts to learn. Introduction to Cloud providers starting with AWS and its services was an incredibly enriching experience. With the guidance of instructors both physical and on LMS, I was able to dive deep into the world of AWS and gain a comprehensive understanding of its different services. Through hands-on labs, tutorials, and interactive quizzes, I was able to learn best practices for architecting and managing applications on AWS as well as effective methods for managing costs and and the various ways of deploying applications on the cloud. This week the focus is on s3 bucket
 
+<br>
 
 
 
 ## **TASKS**
 
 - Create an S3 bucket, with a time stamp and your name
-
 - Enable static website hosting, and bucket must be private
-
 - The tutor must be able to access your URL.
-
 - Explore Cloudfront, to privately expose your index.html file in your S3 bucket.
+
+<br>
 
 ## Process
 
 - Log in to your AWS account and navigate to the S3 service.
-
 - Click on the "Create bucket" button.
-
 - Enter a unique bucket name that includes a time stamp and your name. For example, "johnsmith-2021-04-23-12".
-
 - Select a region for your bucket and click on "Create".
-
 - In the bucket properties, click on the "Static website hosting" option.
-
 - Enable static website hosting and enter the name of the index file for your website. For example, "index.html".
-
 - Click on "Save" to apply the changes.
-
 - In the bucket permissions, make sure the bucket and its content are set to private by selecting the "Block all public access" option.
-
 - Click on the "Save" button to apply the changes.
-
 - Navigate to the Cloudfront service in your AWS account and click on the "Create Distribution" button.
-
 - In the Origin settings, select the S3 bucket you created in the previous steps as the origin domain name.
-
-- In the "Origin access" settings, select "Legacy access identities" (This will Use a CloudFront origin access identity (OAI) to access the S3 bucket)
-
+-In the "Origin access" settings, select "Legacy access identities" (This will Use a CloudFront origin access identity (OAI) to access the S3 bucket)
 - From the dropdown, under "Origin access identity" settings, click on "Create new OAI" Here, your s3 bucket name is automatically generated in the box. Click on "create"
-
 -  Next, under bucket policy, select "Yes, update the bucket policy"
-
 - In the Default Cache Behavior settings under "Viewer settings, select the "Redirect HTTP to HTTPS" option.
-
 - Scroll down to "Settings" and  under the "Default root object" type in the root document for web in s3 bucket e.g index.html
-
 - Scroll to the end and click on the "Create Distribution" button.
-
 - Wait for the Cloudfront distribution to be created and enabled.
-
 - Test the Cloudfront URL to make sure the index.html file in your S3 bucket is privately exposed and only accessible from the Cloudfront URL.
 
-
+<br>
 
 ## Getting Started
 
 ## Prerequisite
+<br>
 
 - Amazon Account
 - An **index.html** file on local machine
