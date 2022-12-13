@@ -5,7 +5,7 @@
 - [Back to first page](../README.md)
 - [Overview](#overview) 
 - [Task](#TASKS) 
-- [My process](#my-process)
+- [Process](#Process)
 - [Author](#author)
 
 <br>
@@ -29,6 +29,42 @@ This is actually about the third week in third semester with AltSchool.There has
 - The tutor must be able to access your URL.
 
 - Explore Cloudfront, to privately expose your index.html file in your S3 bucket.
+
+## Process
+
+- Log in to your AWS account and navigate to the S3 service.
+
+- Click on the "Create bucket" button.
+
+- Enter a unique bucket name that includes a time stamp and your name. For example, "johnsmith-2021-04-23-12".
+
+- Select a region for your bucket and click on "Create".
+
+- In the bucket properties, click on the "Static website hosting" option.
+
+- Enable static website hosting and enter the name of the index file for your website. For example, "index.html".
+
+- Click on "Save" to apply the changes.
+
+- In the bucket permissions, make sure the bucket and its content are set to private by selecting the "Block all public access" option.
+
+- Click on the "Save" button to apply the changes.
+
+- Navigate to the Cloudfront service in your AWS account and click on the "Create Distribution" button.
+
+- Select the "Web" delivery method and click on the "Get started" button.
+
+- In the Origin settings, select the S3 bucket you created in the previous steps as the origin domain name.
+
+- In the Default Cache Behavior settings, select the "Redirect HTTP to HTTPS" option.
+
+- In the Distribution settings, enter a unique Cloudfront URL for your website and click on the "Create Distribution" button.
+
+- Wait for the Cloudfront distribution to be created and enabled.
+
+- Test the Cloudfront URL to make sure the index.html file in your S3 bucket is privately exposed and only accessible from the Cloudfront URL.
+
+
 
 ## Getting Started
 
