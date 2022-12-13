@@ -12,8 +12,8 @@
 <br>
 
 ## Overview
-> LEARNING CLOUD ENGINEERING WITH ALTSCHOOL.
-#### This is actually about the third week in third semester with AltSchool.There has been so much new concepts to learn. Introduction to Cloud providers starting with AWS and its services was an incredibly enriching experience. With the guidance of instructors both physical and on LMS, I was able to dive deep into the world of AWS and gain a comprehensive understanding of its different services. Through hands-on labs, tutorials, and interactive quizzes, I was able to learn best practices for architecting and managing applications on AWS as well as effective methods for managing costs and and the various ways of deploying applications on the cloud. This week the focus is on s3 bucket
+### LEARNING CLOUD ENGINEERING WITH ALTSCHOOL.
+> This is actually about the third week in third semester with AltSchool.There has been so much new concepts to learn. Introduction to Cloud providers starting with AWS and its services was an incredibly enriching experience. With the guidance of instructors both physical and on LMS, I was able to dive deep into the world of AWS and gain a comprehensive understanding of its different services. Through hands-on labs, tutorials, and interactive quizzes, I was able to learn best practices for architecting and managing applications on AWS as well as effective methods for managing costs and and the various ways of deploying applications on the cloud. This week the focus is on s3 bucket
 
 <br>
 
