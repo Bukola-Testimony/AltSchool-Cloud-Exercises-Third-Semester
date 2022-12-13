@@ -6,6 +6,7 @@
 - [Overview](#overview) 
 - [Task](#TASKS) 
 - [Process](#Process)
+- [Getting started](#Getting-Started)
 - [Author](#author)
 
 <br>
