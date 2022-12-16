@@ -180,23 +180,19 @@ Our CloudFront Distribution is working perfectly fine. We have successfully lear
  #### Setting invalidation rules for CloudFront in AWS is important for ensuring that web content is up-to-date and accurate. Invalidation rules can help to reduce latency and improve the user experience by forcing CloudFront to serve the most recent content. Additionally, invalidation rules can save money by preventing unnecessary requests for stale content and can reduce the burden on the origin server by ensuring that only the most recent content is requested.
 <br>
 
- ### 1. Select the distribution for which you want to set invalidation rules.
+ ### 1. Select and click on the distribution for which you want to set invalidation rules.
 ![s1](/Exercise-1/images/inval-1.jpg)
 <br>
 
-### 2. Select the “Invalidations” tab from the menu.
-![s1](/Exercise-1/images/inval-1.jpg)
-<br>
-
-###  3. click on "create invalidations"
+###  2. Select the “Invalidations” tab from the menu and click on "create invalidations"
 ![s1](/Exercise-1/images/Inval-3.png)
 <br>
 
-###  4. Enter the file or files to be invalidated. You can enter a single file or multiple files separated by commas. You can also use a wild card " /* "  if you want all objects to be invalidated.Here I specified a wild card.  Click “Create Invalidation”.
+###  3. Enter the file or files to be invalidated. You can enter a single file or multiple files separated by commas. You can also enter a wild card " /* "  if you want all objects to be invalidated. Here I specified a wild card.  Click “Create Invalidation”.
 ![s1](/Exercise-1/images/Inval-4.png)
 <br>
 
-### 5. Your invalidation request will be processed. The status of your request can be monitored in the “Invalidation List” tab.
+### 4. Your invalidation request will be processed. The status of your request can be monitored in the “Invalidation List” tab.
 ![s1](/Exercise-1/images/Inval-5.png)
 ![s1](/Exercise-1/images/Inval-6.png)
 <br>
