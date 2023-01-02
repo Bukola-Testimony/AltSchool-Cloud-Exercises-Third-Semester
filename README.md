@@ -10,6 +10,7 @@
 - [My process](#my-process)
 - [📔 Exercise 1](./Exercise-1/README.md)
 - [📔 Exercise 2](./Exercise-2/README.md)
+- [📔 Exercise 3](./Exercise-3/README.md)
 - [Author](#author)
 
 
