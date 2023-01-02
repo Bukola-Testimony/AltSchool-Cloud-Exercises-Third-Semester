@@ -14,7 +14,7 @@
 
 ## Overview
 ### LEARNING CLOUD ENGINEERING WITH ALTSCHOOL.
-> This is actually about the end of the first month towards the holodays (Christmas and new year) and so this is an holiday assignment.There has been so much new concepts learnt. Introduction to Virtual Pricate Cloud(VPC) Elatic load balancers (ELC), Autoscaling, Target groups, Listeners, Routing, networking etc. It is now time to put all these knowledge to the test, hence an holiday chalenge.
+> This is actually about the end of the first month towards the holidays (Christmas and new year) and so this is an holiday assignment.There has been so much new concepts learnt. Introduction to Virtual Private Cloud(VPC) Elatic load balancers (ELC), Autoscaling, Target groups, Listeners, Routing, networking etc. It is now time to put all these knowledge to the test, hence an holiday chalenge.
 
 <br>
 
@@ -75,6 +75,7 @@ On the Auto-generate input field, write the name of your VPC
 Choose the number of Avalaibility Zones (AZ's) in which to create your NAT GateWay.
 
 ![s1](/Exercise-2/images/vpc4.png)
+![s1](/Exercise-2/images/vpc5.png)
 
 The image below shows the auto-generated configurations i.e. Subnets, Routes Tables and Network Connections.
 
