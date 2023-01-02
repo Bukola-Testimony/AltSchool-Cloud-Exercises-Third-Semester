@@ -1,10 +1,11 @@
 
-CREATE AN AUTO SCALING GROUP
+## CREATE AN AUTO SCALING GROUP
 To create auto scaling group, First create a Launch Template or AMI
 
--------------------------------------------------------
-CREATE A LAUCH TEMPLATE
----------------------------------------------------------
+<br>
+
+## CREATE A LAUCH TEMPLATE
+
 2. Go to the EC2 dashboard and select ‘Launch Templates’ in the left-hand menu.
 3. Click on the ‘Create Launch Template’ button.
 4. Enter a name for the Launch Template: e.g demo-launch-template
@@ -16,12 +17,13 @@ CREATE A LAUCH TEMPLATE
 10. Select the Security Groups: e.g demo-security-group (The security group attached to the VPC)
 11. Under "Advanced network configuration"  Select the User Data that should be associated with the Launch Template.
 12. Click on the ‘Create Launch Template
+<br>
+<br>
 
 
 
----------------------------------------------------------------------
-NOW CREATE AN AUTO SCALING GROUP
------------------------------------------------------------------------
+## NOW CREATE AN AUTO SCALING GROUP
+
 2. From the EC2 dashboard  select ‘Auto Scaling Groups’ in the left-hand menu.
 3. Click on the ‘Create Auto Scaling Group’.
 4. Enter a name for the Auto Scaling Group:e.g demo-auto-scaling
@@ -33,7 +35,7 @@ NOW CREATE AN AUTO SCALING GROUP
 10. On the "Configure advanced options" page choose "Attach to an existing load balancer"
 11. Next "Choose from your load balancer target groups" and select the created target group: e.g demo-target-group
 12. click on next
-13:On the "Configure group size and Scaling Policies" page, you can specify the following details:
+13. On the "Configure group size and Scaling Policies" page, you can specify the following details:
 Group Size:
 Desired capacity: 2
 Minimum capacity: 2
